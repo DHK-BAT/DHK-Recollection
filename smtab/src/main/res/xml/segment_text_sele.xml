@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--早期的代码  编译是可以过去的 但是现在新的gralde工具是编译不过的
+会 报 Expected resource of type xmL 预期是xml的格式  所以要改成xml的资源目录
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_selected="true" android:color="#FFFFFF"/>
+    <item android:color="#0079FF"/>
+</selector>
+

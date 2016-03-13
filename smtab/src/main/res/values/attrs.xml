@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentTab">
+        <attr name="textSize" format="dimension|reference" />
+        <attr name="textValue" format="string|reference" />
+        <attr name="horizonOrvertical" format="enum">
+            <enum name="horizon" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

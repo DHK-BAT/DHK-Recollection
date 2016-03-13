@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mei_red">#fd405b</color>
+    <color name="black">#000000</color>
+    <color name="whiet">#ffffff</color>
+    <color name="bg">#f4f3f3</color>
+    <color name="hui">#f2f4f6</color>
+ <!--   下拉刷新的颜色 -->
+    <color name="xialaone">#d8221c</color>
+    <color name="red">#ff0033</color>
+    <color name="xialatwo">#FFFFFF</color>
+    <color name="fenhong">#fff5f5</color>
+
+</resources>

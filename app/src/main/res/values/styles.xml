@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- 底部菜单按钮样式 -->
+    <style name="bottomMenuStyle">
+        <!--<item name="android:layout_gravity">center_vertical</item>-->
+        <item name="android:button">@null</item>
+        <!-- <item name="android:paddingLeft">0dp</item>-->
+        <item name="android:textColor">@drawable/sele_main_bottom_btn_text</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:gravity">center</item>
+        <!--<item name="android:paddingBottom">23dp</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+</resources>

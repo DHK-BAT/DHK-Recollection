@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tx_main_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12312313"
+        />
+
+    <RadioGroup
+        android:id="@+id/Rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/btn1"
+            style="@style/bottomMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/buttombar_lbs_sele"
+            android:gravity="center"
+            android:text="1111111"
+            />
+
+        <RadioButton
+            android:id="@+id/btn2"
+            style="@style/bottomMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/buttombar_lbs_sele"
+            android:gravity="center"
+            android:text="22222222"
+            />
+    </RadioGroup>
+
+
+</RelativeLayout>

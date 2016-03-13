@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/ButtomRadioGroup"
+        >
+   <FrameLayout
+       android:id="@+id/fl_mainAct"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </FrameLayout>
+
+    </RelativeLayout>
+
+
+
+    <RadioGroup
+        android:id="@+id/ButtomRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/whiet"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/buttom_lbs"
+            style="@style/bottomMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/buttombar_lbs_sele"
+            android:gravity="center"
+            android:text="ddd1"
+            />
+
+        <RadioButton
+            android:id="@+id/buttom_new"
+            style="@style/bottomMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:drawableTop="@drawable/buttombar_new_sele"
+            android:paddingBottom="0dp"
+            android:text="aaa"/>
+
+             <!--给中间按钮占位的-->
+        <RadioButton
+            style="@style/bottomMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            />
+
+        <RadioButton
+            android:id="@+id/buttom_reply"
+            style="@style/bottomMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/buttombar_reply_selet"
+            android:text="ddd1"
+            />
+
+
+        <RadioButton
+            android:id="@+id/buttom_me"
+            style="@style/bottomMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/buttombar_me_sele"
+            android:text="ddd1"
+            />
+
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_nav_add"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
